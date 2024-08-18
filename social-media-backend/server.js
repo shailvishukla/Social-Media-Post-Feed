@@ -17,7 +17,7 @@ const io = socketIo(server, {
 });
 
 const sequelize = new Sequelize(
-  "postgres://postgres:1234@localhost:5432/social-media-server"
+  "postgres://postgres:postgres@localhost:5433/social-media-server"
 );
 
 app.use(cors());
